@@ -1,0 +1,71 @@
+From 872bc039d2c4339b6a8a1968f2f83fde46066619 Mon Sep 17 00:00:00 2001
+From: Ranieri Althoff <1993083+ranisalt@users.noreply.github.com>
+Date: Tue, 20 May 2025 20:32:37 +0200
+Subject: [PATCH] Skip passing sandbox env to spawned shell in Flatpak (#1116)
+
+* Skip passing sandbox env to spawned shell in Flatpak
+
+* Fix hardcoded TERM vars for proper colored output
+
+* Update releases.md
+---
+ docs/docs/releases.md          |  2 +-
+ teletypewriter/src/unix/mod.rs | 20 +++++++++-----------
+ 2 files changed, 10 insertions(+), 12 deletions(-)
+
+diff --git a/docs/docs/releases.md b/docs/docs/releases.md
+index 9387b01990..a07e19096e 100644
+--- a/docs/docs/releases.md
++++ b/docs/docs/releases.md
+@@ -7,7 +7,7 @@ language: 'en'
+ 
+ ## 0.2.17 (unreleased)
+ 
+-- TBD.
++- Skip passing sandbox env in Flatpak, fixes user environment in spawned shell [#1116](https://github.com/raphamorim/rio/pull/1116) by [@ranisalt](https://github.com/ranisalt).
+ 
+ ## 0.2.16
+ 
+diff --git a/teletypewriter/src/unix/mod.rs b/teletypewriter/src/unix/mod.rs
+index 18336b2636..1fc7e12973 100644
+--- a/teletypewriter/src/unix/mod.rs
++++ b/teletypewriter/src/unix/mod.rs
+@@ -453,13 +453,20 @@ pub fn create_pty_with_spawn(
+         cmd
+     };
+ 
+-    #[cfg(not(any(target_os = "macos", target_os = "freebsd")))]
++    #[cfg(target_os = "linux")]
+     {
+         // If running inside a flatpak sandbox.
+         // Must retrieve $SHELL from outside the sandbox, so ask the host.
+         if std::path::PathBuf::from("/.flatpak-info").exists() {
+             builder = Command::new("flatpak-spawn");
+-            let mut with_args = vec!["--host".to_string(), "--watch-bus".to_string()];
++
++            let mut with_args = vec![
++                "--host".to_string(),
++                "--watch-bus".to_string(),
++                "--env=COLORTERM=truecolor".to_string(),
++                "--env=TERM=rio".to_string(),
++            ];
++
+             if let Some(directory) = working_directory {
+                 with_args.push(format!(
+                     "--directory={}",
+@@ -467,15 +474,6 @@ pub fn create_pty_with_spawn(
+                 ));
+             }
+ 
+-            // Map only base environment variables
+-            for (k, v) in std::env::vars_os() {
+-                let key: String = k.into_string().unwrap_or_default();
+-                let value: String = v.into_string().unwrap_or_default();
+-                with_args.push(format!("--env={key}={value}"));
+-            }
+-
+-            with_args.push("--env=TERM_PROGRAM=rio".to_string());
+-
+             let output = std::process::Command::new("flatpak-spawn")
+                 .args(["--host", "sh", "-c", "echo $SHELL"])
+                 .output()?;
