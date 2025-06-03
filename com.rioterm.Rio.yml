@@ -50,4 +50,7 @@ modules:
       - type: patch
         path: 872bc039d2c4339b6a8a1968f2f83fde46066619.patch
 
+      - type: patch
+        path: 126cd8cbb428b8eb54311f880a3ae0bcbaf852a5.patch
+
       - generated-sources.json
