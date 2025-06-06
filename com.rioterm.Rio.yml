@@ -47,4 +47,7 @@ modules:
           version-query: $tag | sub("^v"; "")
           timestamp-query: .published_at
 
+      - type: patch
+        path: fix-metainfo.patch
+
       - generated-sources.json
