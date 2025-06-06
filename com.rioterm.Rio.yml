@@ -37,8 +37,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/raphamorim/rio.git
-        commit: ca2b96088a15137166fc467ccb61893a92c0438e
-        tag: v0.2.17
+        commit: 8025070639d9c3845f55ce79e10190f5719766b8
+        tag: v0.2.18
 
         x-checker-data:
           type: json
@@ -46,5 +46,8 @@ modules:
           tag-query: .tag_name
           version-query: $tag | sub("^v"; "")
           timestamp-query: .published_at
+
+      - type: patch
+        path: fix-metainfo.patch
 
       - generated-sources.json
