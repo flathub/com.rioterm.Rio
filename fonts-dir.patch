@@ -1,0 +1,13 @@
+diff --git a/sugarloaf/src/font/loader/linux.rs b/sugarloaf/src/font/loader/linux.rs
+index 8227e9ce92..080db71d6e 100644
+--- a/sugarloaf/src/font/loader/linux.rs
++++ b/sugarloaf/src/font/loader/linux.rs
+@@ -3,7 +3,7 @@ use super::Database;
+ pub fn load(db: &mut Database) {
+     load_fontconfig(db);
+ 
+-    db.load_fonts_dir("/usr/share/fonts/");
++    db.load_fonts_dir("/run/host/fonts/");
+     db.load_fonts_dir("/usr/local/share/fonts/");
+ 
+     if let Ok(ref home) = std::env::var("HOME") {

@@ -50,4 +50,7 @@ modules:
       - type: patch
         path: fix-metainfo.patch
 
+      - type: patch
+        path: fonts-dir.patch
+
       - generated-sources.json
