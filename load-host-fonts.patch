@@ -1,0 +1,14 @@
+diff --git a/sugarloaf/src/font/loader/linux.rs b/sugarloaf/src/font/loader/linux.rs
+index 8227e9ce92..1f15f6d0d4 100644
+--- a/sugarloaf/src/font/loader/linux.rs
++++ b/sugarloaf/src/font/loader/linux.rs
+@@ -3,6 +3,9 @@ use super::Database;
+ pub fn load(db: &mut Database) {
+     load_fontconfig(db);
+ 
++    db.load_fonts_dir("/run/host/fonts/");
++    db.load_fonts_dir("/run/host/local-fonts/");
++    db.load_fonts_dir("/run/host/user-fonts/");
+     db.load_fonts_dir("/usr/share/fonts/");
+     db.load_fonts_dir("/usr/local/share/fonts/");
+ 
