@@ -47,4 +47,7 @@ modules:
           version-query: $tag | sub("^v"; "")
           timestamp-query: .published_at
 
+      - type: patch
+        path: load-host-fonts.patch
+
       - generated-sources.json
