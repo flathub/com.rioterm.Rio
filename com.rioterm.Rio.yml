@@ -37,8 +37,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/raphamorim/rio.git
-        commit: 8a243cc7ce163c42fe48fa6e73b7f6a61dd29273
-        tag: v0.2.24
+        commit: 018afe979d90bda2f3d08156849ab78cc95db89f
+        tag: v0.2.25
 
         x-checker-data:
           type: json
