@@ -47,4 +47,10 @@ modules:
           version-query: $tag | sub("^v"; "")
           timestamp-query: .published_at
 
+      - type: patch
+        path: 79a4575f00671eadd2be330a093df2ec753a1c73.patch
+
+      - type: patch
+        path: 05441ee03c1cb01324cb15df208f8201012e495e.patch
+
       - generated-sources.json
