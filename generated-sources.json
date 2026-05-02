@@ -4448,14 +4448,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/orbclient/orbclient-0.3.53.crate",
-        "sha256": "12c6933ddbbd16539a7672e697bb8d41ac3a4e99ac43eeb40c07236bd7fcb2dd",
-        "dest": "cargo/vendor/orbclient-0.3.53"
+        "url": "https://static.crates.io/crates/orbclient/orbclient-0.3.54.crate",
+        "sha256": "a570f6bca41d29acb2139229a7c873ec99bc9a313bd10804081d89bfac8ff329",
+        "dest": "cargo/vendor/orbclient-0.3.54"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"12c6933ddbbd16539a7672e697bb8d41ac3a4e99ac43eeb40c07236bd7fcb2dd\", \"files\": {}}",
-        "dest": "cargo/vendor/orbclient-0.3.53",
+        "contents": "{\"package\": \"a570f6bca41d29acb2139229a7c873ec99bc9a313bd10804081d89bfac8ff329\", \"files\": {}}",
+        "dest": "cargo/vendor/orbclient-0.3.54",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -8309,14 +8309,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/yeslogic-fontconfig-sys/yeslogic-fontconfig-sys-6.0.0.crate",
-        "sha256": "503a066b4c037c440169d995b869046827dbc71263f6e8f3be6d77d4f3229dbd",
-        "dest": "cargo/vendor/yeslogic-fontconfig-sys-6.0.0"
+        "url": "https://static.crates.io/crates/yeslogic-fontconfig-sys/yeslogic-fontconfig-sys-6.0.1.crate",
+        "sha256": "1d8b8abf912b9a29ff112e1671c97c33636903d13a69712037190e6805af4f76",
+        "dest": "cargo/vendor/yeslogic-fontconfig-sys-6.0.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"503a066b4c037c440169d995b869046827dbc71263f6e8f3be6d77d4f3229dbd\", \"files\": {}}",
-        "dest": "cargo/vendor/yeslogic-fontconfig-sys-6.0.0",
+        "contents": "{\"package\": \"1d8b8abf912b9a29ff112e1671c97c33636903d13a69712037190e6805af4f76\", \"files\": {}}",
+        "dest": "cargo/vendor/yeslogic-fontconfig-sys-6.0.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
