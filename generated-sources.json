@@ -262,19 +262,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/array-init/array-init-2.1.0.crate",
-        "sha256": "3d62b7694a562cdf5a74227903507c56ab2cc8bdd1f781ed5cb4cf9c9f810bfc",
-        "dest": "cargo/vendor/array-init-2.1.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"3d62b7694a562cdf5a74227903507c56ab2cc8bdd1f781ed5cb4cf9c9f810bfc\", \"files\": {}}",
-        "dest": "cargo/vendor/array-init-2.1.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/arrayref/arrayref-0.3.9.crate",
         "sha256": "76a2e8124351fda1ef8aaaa3bbd7ebbcb486bbcd4225aca0aa0d84bb2db8fecb",
         "dest": "cargo/vendor/arrayref-0.3.9"
@@ -483,14 +470,27 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/autocfg/autocfg-1.5.0.crate",
-        "sha256": "c08606f8c3cbf4ce6ec8e28fb0014a2c086708fe954eaa885384a6165172e7e8",
-        "dest": "cargo/vendor/autocfg-1.5.0"
+        "url": "https://static.crates.io/crates/autocfg/autocfg-1.5.1.crate",
+        "sha256": "f2032f911046de80f0a198e0901378627c33f59ea0ac00e363d481118bd70a53",
+        "dest": "cargo/vendor/autocfg-1.5.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"c08606f8c3cbf4ce6ec8e28fb0014a2c086708fe954eaa885384a6165172e7e8\", \"files\": {}}",
-        "dest": "cargo/vendor/autocfg-1.5.0",
+        "contents": "{\"package\": \"f2032f911046de80f0a198e0901378627c33f59ea0ac00e363d481118bd70a53\", \"files\": {}}",
+        "dest": "cargo/vendor/autocfg-1.5.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/baremetal/baremetal-0.33.0.crate",
+        "sha256": "c9cac49f90014f62132579bce49ad56aeaba4ae582174dade1420e24ee01279b",
+        "dest": "cargo/vendor/baremetal-0.33.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"c9cac49f90014f62132579bce49ad56aeaba4ae582174dade1420e24ee01279b\", \"files\": {}}",
+        "dest": "cargo/vendor/baremetal-0.33.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -561,27 +561,27 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/bit-set/bit-set-0.8.0.crate",
-        "sha256": "08807e080ed7f9d5433fa9b275196cfc35414f66a0c79d864dc51a0d825231a3",
-        "dest": "cargo/vendor/bit-set-0.8.0"
+        "url": "https://static.crates.io/crates/bit-set/bit-set-0.9.1.crate",
+        "sha256": "34ddef2995421ab6a5c779542c81ee77c115206f4ad9d5a8e05f4ff49716a3dd",
+        "dest": "cargo/vendor/bit-set-0.9.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"08807e080ed7f9d5433fa9b275196cfc35414f66a0c79d864dc51a0d825231a3\", \"files\": {}}",
-        "dest": "cargo/vendor/bit-set-0.8.0",
+        "contents": "{\"package\": \"34ddef2995421ab6a5c779542c81ee77c115206f4ad9d5a8e05f4ff49716a3dd\", \"files\": {}}",
+        "dest": "cargo/vendor/bit-set-0.9.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/bit-vec/bit-vec-0.8.0.crate",
-        "sha256": "5e764a1d40d510daf35e07be9eb06e75770908c27d411ee6c92109c9840eaaf7",
-        "dest": "cargo/vendor/bit-vec-0.8.0"
+        "url": "https://static.crates.io/crates/bit-vec/bit-vec-0.9.1.crate",
+        "sha256": "b71798fca2c1fe1086445a7258a4bc81e6e49dcd24c8d0dd9a1e57395b603f51",
+        "dest": "cargo/vendor/bit-vec-0.9.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"5e764a1d40d510daf35e07be9eb06e75770908c27d411ee6c92109c9840eaaf7\", \"files\": {}}",
-        "dest": "cargo/vendor/bit-vec-0.8.0",
+        "contents": "{\"package\": \"b71798fca2c1fe1086445a7258a4bc81e6e49dcd24c8d0dd9a1e57395b603f51\", \"files\": {}}",
+        "dest": "cargo/vendor/bit-vec-0.9.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -600,27 +600,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/bitflags/bitflags-2.11.1.crate",
-        "sha256": "c4512299f36f043ab09a583e57bceb5a5aab7a73db1805848e8fef3c9e8c78b3",
-        "dest": "cargo/vendor/bitflags-2.11.1"
+        "url": "https://static.crates.io/crates/bitflags/bitflags-2.13.0.crate",
+        "sha256": "b4388bee8683e3d04af747c73422af53102d2bd24d9eadb6cbc100baef4b43f8",
+        "dest": "cargo/vendor/bitflags-2.13.0"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"c4512299f36f043ab09a583e57bceb5a5aab7a73db1805848e8fef3c9e8c78b3\", \"files\": {}}",
-        "dest": "cargo/vendor/bitflags-2.11.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/bitvec/bitvec-1.0.1.crate",
-        "sha256": "1bc2832c24239b0141d5674bb9174f9d68a8b5b3f2753311927c172ca46f7e9c",
-        "dest": "cargo/vendor/bitvec-1.0.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"1bc2832c24239b0141d5674bb9174f9d68a8b5b3f2753311927c172ca46f7e9c\", \"files\": {}}",
-        "dest": "cargo/vendor/bitvec-1.0.1",
+        "contents": "{\"package\": \"b4388bee8683e3d04af747c73422af53102d2bd24d9eadb6cbc100baef4b43f8\", \"files\": {}}",
+        "dest": "cargo/vendor/bitflags-2.13.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -639,19 +626,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/block/block-0.1.6.crate",
-        "sha256": "0d8c1fef690941d3e7788d328517591fecc684c084084702d6ff1641e993699a",
-        "dest": "cargo/vendor/block-0.1.6"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"0d8c1fef690941d3e7788d328517591fecc684c084084702d6ff1641e993699a\", \"files\": {}}",
-        "dest": "cargo/vendor/block-0.1.6",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/block-buffer/block-buffer-0.10.4.crate",
         "sha256": "3078c7629b62d3f0439517fa394996acacc5cbc91c5a20d8c658e77abd503a71",
         "dest": "cargo/vendor/block-buffer-0.10.4"
@@ -660,6 +634,19 @@
         "type": "inline",
         "contents": "{\"package\": \"3078c7629b62d3f0439517fa394996acacc5cbc91c5a20d8c658e77abd503a71\", \"files\": {}}",
         "dest": "cargo/vendor/block-buffer-0.10.4",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/block-rs/block-rs-0.2.0.crate",
+        "sha256": "be18a19ad1a48c5619f06160be5885df75586ecf17b61410bcfe94532fd8b53a",
+        "dest": "cargo/vendor/block-rs-0.2.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"be18a19ad1a48c5619f06160be5885df75586ecf17b61410bcfe94532fd8b53a\", \"files\": {}}",
+        "dest": "cargo/vendor/block-rs-0.2.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -717,27 +704,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/build-target/build-target-0.4.0.crate",
-        "sha256": "832133bbabbbaa9fbdba793456a2827627a7d2b8fb96032fa1e7666d7895832b",
-        "dest": "cargo/vendor/build-target-0.4.0"
+        "url": "https://static.crates.io/crates/bumpalo/bumpalo-3.20.3.crate",
+        "sha256": "72f5acc6cb2ba439de613abc23857ec3d78374d8ed5ac84e9d11336e87da8649",
+        "dest": "cargo/vendor/bumpalo-3.20.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"832133bbabbbaa9fbdba793456a2827627a7d2b8fb96032fa1e7666d7895832b\", \"files\": {}}",
-        "dest": "cargo/vendor/build-target-0.4.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/bumpalo/bumpalo-3.20.2.crate",
-        "sha256": "5d20789868f4b01b2f2caec9f5c4e0213b41e3e5702a50157d699ae31ced2fcb",
-        "dest": "cargo/vendor/bumpalo-3.20.2"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"5d20789868f4b01b2f2caec9f5c4e0213b41e3e5702a50157d699ae31ced2fcb\", \"files\": {}}",
-        "dest": "cargo/vendor/bumpalo-3.20.2",
+        "contents": "{\"package\": \"72f5acc6cb2ba439de613abc23857ec3d78374d8ed5ac84e9d11336e87da8649\", \"files\": {}}",
+        "dest": "cargo/vendor/bumpalo-3.20.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -886,14 +860,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/cc/cc-1.2.62.crate",
-        "sha256": "a1dce859f0832a7d088c4f1119888ab94ef4b5d6795d1ce05afb7fe159d79f98",
-        "dest": "cargo/vendor/cc-1.2.62"
+        "url": "https://static.crates.io/crates/cc/cc-1.2.63.crate",
+        "sha256": "556e016178bb5662a08681bbe0f00f8e17631781a4dfc8c45e466e4b185ec27f",
+        "dest": "cargo/vendor/cc-1.2.63"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"a1dce859f0832a7d088c4f1119888ab94ef4b5d6795d1ce05afb7fe159d79f98\", \"files\": {}}",
-        "dest": "cargo/vendor/cc-1.2.62",
+        "contents": "{\"package\": \"556e016178bb5662a08681bbe0f00f8e17631781a4dfc8c45e466e4b185ec27f\", \"files\": {}}",
+        "dest": "cargo/vendor/cc-1.2.63",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -1081,14 +1055,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/codespan-reporting/codespan-reporting-0.12.0.crate",
-        "sha256": "fe6d2e5af09e8c8ad56c969f2157a3d4238cebc7c55f0a517728c38f7b200f81",
-        "dest": "cargo/vendor/codespan-reporting-0.12.0"
+        "url": "https://static.crates.io/crates/codespan-reporting/codespan-reporting-0.13.1.crate",
+        "sha256": "af491d569909a7e4dee0ad7db7f5341fef5c614d5b8ec8cf765732aba3cff681",
+        "dest": "cargo/vendor/codespan-reporting-0.13.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"fe6d2e5af09e8c8ad56c969f2157a3d4238cebc7c55f0a517728c38f7b200f81\", \"files\": {}}",
-        "dest": "cargo/vendor/codespan-reporting-0.12.0",
+        "contents": "{\"package\": \"af491d569909a7e4dee0ad7db7f5341fef5c614d5b8ec8cf765732aba3cff681\", \"files\": {}}",
+        "dest": "cargo/vendor/codespan-reporting-0.13.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -1328,14 +1302,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/coreaudio-sys/coreaudio-sys-0.2.17.crate",
-        "sha256": "ceec7a6067e62d6f931a2baf6f3a751f4a892595bcec1461a3c94ef9949864b6",
-        "dest": "cargo/vendor/coreaudio-sys-0.2.17"
+        "url": "https://static.crates.io/crates/coreaudio-sys/coreaudio-sys-0.2.18.crate",
+        "sha256": "b9b4739a805a62757a83e5654fa3faabec0442666b263bb2287d5a8185bfd953",
+        "dest": "cargo/vendor/coreaudio-sys-0.2.18"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"ceec7a6067e62d6f931a2baf6f3a751f4a892595bcec1461a3c94ef9949864b6\", \"files\": {}}",
-        "dest": "cargo/vendor/coreaudio-sys-0.2.17",
+        "contents": "{\"package\": \"b9b4739a805a62757a83e5654fa3faabec0442666b263bb2287d5a8185bfd953\", \"files\": {}}",
+        "dest": "cargo/vendor/coreaudio-sys-0.2.18",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -1536,19 +1510,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/d3d12-descriptor-heap/d3d12-descriptor-heap-0.2.1.crate",
-        "sha256": "667b7d3cd82f34250e3340908e33a7160c03c680c4ce64e5abf63d85ad0f3033",
-        "dest": "cargo/vendor/d3d12-descriptor-heap-0.2.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"667b7d3cd82f34250e3340908e33a7160c03c680c4ce64e5abf63d85ad0f3033\", \"files\": {}}",
-        "dest": "cargo/vendor/d3d12-descriptor-heap-0.2.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/dashmap/dashmap-6.2.1.crate",
         "sha256": "e6361d5c062261c78a176addb82d4c821ae42bed6089de0e12603cd25de2059c",
         "dest": "cargo/vendor/dashmap-6.2.1"
@@ -1705,14 +1666,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/displaydoc/displaydoc-0.2.5.crate",
-        "sha256": "97369cbbc041bc366949bc74d34658d6cda5621039731c6310521892a3a20ae0",
-        "dest": "cargo/vendor/displaydoc-0.2.5"
+        "url": "https://static.crates.io/crates/displaydoc/displaydoc-0.2.6.crate",
+        "sha256": "1ac70aa55017e108007fbaf5aa0f54b021c98f92ff8af59d42eda9da96e3dd4f",
+        "dest": "cargo/vendor/displaydoc-0.2.6"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"97369cbbc041bc366949bc74d34658d6cda5621039731c6310521892a3a20ae0\", \"files\": {}}",
-        "dest": "cargo/vendor/displaydoc-0.2.5",
+        "contents": "{\"package\": \"1ac70aa55017e108007fbaf5aa0f54b021c98f92ff8af59d42eda9da96e3dd4f\", \"files\": {}}",
+        "dest": "cargo/vendor/displaydoc-0.2.6",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -1861,14 +1822,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/either/either-1.15.0.crate",
-        "sha256": "48c757948c5ede0e46177b7add2e67155f70e33c07fea8284df6576da70b3719",
-        "dest": "cargo/vendor/either-1.15.0"
+        "url": "https://static.crates.io/crates/either/either-1.16.0.crate",
+        "sha256": "91622ff5e7162018101f2fea40d6ebf4a78bbe5a49736a2020649edf9693679e",
+        "dest": "cargo/vendor/either-1.16.0"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"48c757948c5ede0e46177b7add2e67155f70e33c07fea8284df6576da70b3719\", \"files\": {}}",
-        "dest": "cargo/vendor/either-1.15.0",
+        "contents": "{\"package\": \"91622ff5e7162018101f2fea40d6ebf4a78bbe5a49736a2020649edf9693679e\", \"files\": {}}",
+        "dest": "cargo/vendor/either-1.16.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -2303,19 +2264,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/funty/funty-2.0.0.crate",
-        "sha256": "e6d5a32815ae3f33302d95fdcb2ce17862f8c65363dcfd29360480ba1001fc9c",
-        "dest": "cargo/vendor/funty-2.0.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"e6d5a32815ae3f33302d95fdcb2ce17862f8c65363dcfd29360480ba1001fc9c\", \"files\": {}}",
-        "dest": "cargo/vendor/funty-2.0.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/futures/futures-0.3.32.crate",
         "sha256": "8b147ee9d1f6d097cef9ce628cd2ee62288d963e16fb287bd9286455b241382d",
         "dest": "cargo/vendor/futures-0.3.32"
@@ -2550,40 +2498,40 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/glow/glow-0.16.0.crate",
-        "sha256": "c5e5ea60d70410161c8bf5da3fdfeaa1c72ed2c15f8bbb9d19fe3a4fad085f08",
-        "dest": "cargo/vendor/glow-0.16.0"
+        "url": "https://static.crates.io/crates/glow/glow-0.17.0.crate",
+        "sha256": "29038e1c483364cc6bb3cf78feee1816002e127c331a1eec55a4d202b9e1adb5",
+        "dest": "cargo/vendor/glow-0.17.0"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"c5e5ea60d70410161c8bf5da3fdfeaa1c72ed2c15f8bbb9d19fe3a4fad085f08\", \"files\": {}}",
-        "dest": "cargo/vendor/glow-0.16.0",
+        "contents": "{\"package\": \"29038e1c483364cc6bb3cf78feee1816002e127c331a1eec55a4d202b9e1adb5\", \"files\": {}}",
+        "dest": "cargo/vendor/glow-0.17.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/glslang/glslang-0.6.2.crate",
-        "sha256": "69a8eb9fa5d381f25af800e9050ae38ed9d9b1f0a1d60722315475322f0ea3a9",
-        "dest": "cargo/vendor/glslang-0.6.2"
+        "url": "https://static.crates.io/crates/glslang/glslang-0.8.1.crate",
+        "sha256": "0db73ac0e8bd6f9c253b70205f2bb1c63845b6e263665ac8063316ce16f408c8",
+        "dest": "cargo/vendor/glslang-0.8.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"69a8eb9fa5d381f25af800e9050ae38ed9d9b1f0a1d60722315475322f0ea3a9\", \"files\": {}}",
-        "dest": "cargo/vendor/glslang-0.6.2",
+        "contents": "{\"package\": \"0db73ac0e8bd6f9c253b70205f2bb1c63845b6e263665ac8063316ce16f408c8\", \"files\": {}}",
+        "dest": "cargo/vendor/glslang-0.8.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/glslang-sys/glslang-sys-0.7.0+1062752.crate",
-        "sha256": "13a2ca509c79db5c89d0a6fd91e146e00c815f40fe3a103247adfb24e0679d29",
-        "dest": "cargo/vendor/glslang-sys-0.7.0+1062752"
+        "url": "https://static.crates.io/crates/glslang-sys/glslang-sys-0.8.1+275822a.crate",
+        "sha256": "ec80baca8831e8414db40c562fd76ca6a32a792c1db990451d4e7d3cb246e1ed",
+        "dest": "cargo/vendor/glslang-sys-0.8.1+275822a"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"13a2ca509c79db5c89d0a6fd91e146e00c815f40fe3a103247adfb24e0679d29\", \"files\": {}}",
-        "dest": "cargo/vendor/glslang-sys-0.7.0+1062752",
+        "contents": "{\"package\": \"ec80baca8831e8414db40c562fd76ca6a32a792c1db990451d4e7d3cb246e1ed\", \"files\": {}}",
+        "dest": "cargo/vendor/glslang-sys-0.8.1+275822a",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -2680,19 +2628,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/halfbrown/halfbrown-0.2.5.crate",
-        "sha256": "8588661a8607108a5ca69cab034063441a0413a0b041c13618a7dd348021ef6f",
-        "dest": "cargo/vendor/halfbrown-0.2.5"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"8588661a8607108a5ca69cab034063441a0413a0b041c13618a7dd348021ef6f\", \"files\": {}}",
-        "dest": "cargo/vendor/halfbrown-0.2.5",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/halfbrown/halfbrown-0.3.0.crate",
         "sha256": "aa2c385c6df70fd180bbb673d93039dbd2cd34e41d782600bdf6e1ca7bce39aa",
         "dest": "cargo/vendor/halfbrown-0.3.0"
@@ -2701,6 +2636,19 @@
         "type": "inline",
         "contents": "{\"package\": \"aa2c385c6df70fd180bbb673d93039dbd2cd34e41d782600bdf6e1ca7bce39aa\", \"files\": {}}",
         "dest": "cargo/vendor/halfbrown-0.3.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/halfbrown/halfbrown-0.4.0.crate",
+        "sha256": "0c7ed2f2edad8a14c8186b847909a41fbb9c3eafa44f88bd891114ed5019da09",
+        "dest": "cargo/vendor/halfbrown-0.4.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"0c7ed2f2edad8a14c8186b847909a41fbb9c3eafa44f88bd891114ed5019da09\", \"files\": {}}",
+        "dest": "cargo/vendor/halfbrown-0.4.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -2979,14 +2927,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/inotify/inotify-0.11.1.crate",
-        "sha256": "bd5b3eaf1a28b758ac0faa5a4254e8ab2705605496f1b1f3fbbc3988ad73d199",
-        "dest": "cargo/vendor/inotify-0.11.1"
+        "url": "https://static.crates.io/crates/inotify/inotify-0.11.2.crate",
+        "sha256": "533e68a5842e734946fe159fb03fc9bbbb254f590dd0d8ad321ae5ff7beca2c1",
+        "dest": "cargo/vendor/inotify-0.11.2"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"bd5b3eaf1a28b758ac0faa5a4254e8ab2705605496f1b1f3fbbc3988ad73d199\", \"files\": {}}",
-        "dest": "cargo/vendor/inotify-0.11.1",
+        "contents": "{\"package\": \"533e68a5842e734946fe159fb03fc9bbbb254f590dd0d8ad321ae5ff7beca2c1\", \"files\": {}}",
+        "dest": "cargo/vendor/inotify-0.11.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3135,14 +3083,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/js-sys/js-sys-0.3.98.crate",
-        "sha256": "67df7112613f8bfd9150013a0314e196f4800d3201ae742489d999db2f979f08",
-        "dest": "cargo/vendor/js-sys-0.3.98"
+        "url": "https://static.crates.io/crates/js-sys/js-sys-0.3.100.crate",
+        "sha256": "f2025f20d7a4fa7785846e7b63d10a76d3f1cee98ee5cb79ea59703f95e42162",
+        "dest": "cargo/vendor/js-sys-0.3.100"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"67df7112613f8bfd9150013a0314e196f4800d3201ae742489d999db2f979f08\", \"files\": {}}",
-        "dest": "cargo/vendor/js-sys-0.3.98",
+        "contents": "{\"package\": \"f2025f20d7a4fa7785846e7b63d10a76d3f1cee98ee5cb79ea59703f95e42162\", \"files\": {}}",
+        "dest": "cargo/vendor/js-sys-0.3.100",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3174,14 +3122,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/kqueue/kqueue-1.1.1.crate",
-        "sha256": "eac30106d7dce88daf4a3fcb4879ea939476d5074a9b7ddd0fb97fa4bed5596a",
-        "dest": "cargo/vendor/kqueue-1.1.1"
+        "url": "https://static.crates.io/crates/kqueue/kqueue-1.2.0.crate",
+        "sha256": "273c0752728918e0ac4976f2b275b6fefb9ecd400585dec929419f3844cd87b5",
+        "dest": "cargo/vendor/kqueue-1.2.0"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"eac30106d7dce88daf4a3fcb4879ea939476d5074a9b7ddd0fb97fa4bed5596a\", \"files\": {}}",
-        "dest": "cargo/vendor/kqueue-1.1.1",
+        "contents": "{\"package\": \"273c0752728918e0ac4976f2b275b6fefb9ecd400585dec929419f3844cd87b5\", \"files\": {}}",
+        "dest": "cargo/vendor/kqueue-1.2.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3265,209 +3213,131 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader/librashader-0.10.1.crate",
-        "sha256": "e8ba2f86c5fade6158ba832d7b7a42e01b323c9651a5f53703955acb8012594d",
-        "dest": "cargo/vendor/librashader-0.10.1"
+        "url": "https://static.crates.io/crates/librashader/librashader-0.11.1.crate",
+        "sha256": "549480c58c52693ccaf4a4e41530070bcc9320b92585020ed024bd0bf774ebf8",
+        "dest": "cargo/vendor/librashader-0.11.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"e8ba2f86c5fade6158ba832d7b7a42e01b323c9651a5f53703955acb8012594d\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-0.10.1",
+        "contents": "{\"package\": \"549480c58c52693ccaf4a4e41530070bcc9320b92585020ed024bd0bf774ebf8\", \"files\": {}}",
+        "dest": "cargo/vendor/librashader-0.11.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-cache/librashader-cache-0.10.1.crate",
-        "sha256": "6c3ef2d6661c3f7cf4a15aa7d48d9693539f1ca3704b059aad89fba780490e96",
-        "dest": "cargo/vendor/librashader-cache-0.10.1"
+        "url": "https://static.crates.io/crates/librashader-cache/librashader-cache-0.11.1.crate",
+        "sha256": "917a8214ca07ca123802cf9b40d13570726493d15e95afde80df9c5340a9d514",
+        "dest": "cargo/vendor/librashader-cache-0.11.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"6c3ef2d6661c3f7cf4a15aa7d48d9693539f1ca3704b059aad89fba780490e96\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-cache-0.10.1",
+        "contents": "{\"package\": \"917a8214ca07ca123802cf9b40d13570726493d15e95afde80df9c5340a9d514\", \"files\": {}}",
+        "dest": "cargo/vendor/librashader-cache-0.11.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-common/librashader-common-0.10.1.crate",
-        "sha256": "e198e06fd532b961e4247dafbbb0aa392a1ddb64e678d188bcafb630e5e16eef",
-        "dest": "cargo/vendor/librashader-common-0.10.1"
+        "url": "https://static.crates.io/crates/librashader-common/librashader-common-0.11.1.crate",
+        "sha256": "ccf64a5ab1b5d4f3bad90050b9f09f11ca6f69e101761f836ab98214aafd90e0",
+        "dest": "cargo/vendor/librashader-common-0.11.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"e198e06fd532b961e4247dafbbb0aa392a1ddb64e678d188bcafb630e5e16eef\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-common-0.10.1",
+        "contents": "{\"package\": \"ccf64a5ab1b5d4f3bad90050b9f09f11ca6f69e101761f836ab98214aafd90e0\", \"files\": {}}",
+        "dest": "cargo/vendor/librashader-common-0.11.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-pack/librashader-pack-0.10.1.crate",
-        "sha256": "58fda09fc5b95955fb52c5e6a13831a4e13ac7819d292ef6556be9e9faec13c5",
-        "dest": "cargo/vendor/librashader-pack-0.10.1"
+        "url": "https://static.crates.io/crates/librashader-pack/librashader-pack-0.11.1.crate",
+        "sha256": "d02d14ed205d57a0290d730169e72a4d3a5ef50a851cb7439ea136fd5e5ad5c0",
+        "dest": "cargo/vendor/librashader-pack-0.11.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"58fda09fc5b95955fb52c5e6a13831a4e13ac7819d292ef6556be9e9faec13c5\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-pack-0.10.1",
+        "contents": "{\"package\": \"d02d14ed205d57a0290d730169e72a4d3a5ef50a851cb7439ea136fd5e5ad5c0\", \"files\": {}}",
+        "dest": "cargo/vendor/librashader-pack-0.11.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-preprocess/librashader-preprocess-0.10.1.crate",
-        "sha256": "f6bad79c3ea62c1f380cf08dada7e911519100dac17cafd724e18cc6091e5d04",
-        "dest": "cargo/vendor/librashader-preprocess-0.10.1"
+        "url": "https://static.crates.io/crates/librashader-preprocess/librashader-preprocess-0.11.1.crate",
+        "sha256": "7c2700322d51dfe50c222ebca656dc486af8cf16cc9e55e530af4955600e8a59",
+        "dest": "cargo/vendor/librashader-preprocess-0.11.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"f6bad79c3ea62c1f380cf08dada7e911519100dac17cafd724e18cc6091e5d04\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-preprocess-0.10.1",
+        "contents": "{\"package\": \"7c2700322d51dfe50c222ebca656dc486af8cf16cc9e55e530af4955600e8a59\", \"files\": {}}",
+        "dest": "cargo/vendor/librashader-preprocess-0.11.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-presets/librashader-presets-0.10.1.crate",
-        "sha256": "2182ff80761bc07b463309ecc2b4d4542c83f0d2e48ec96e9f8e90977fa6cd4c",
-        "dest": "cargo/vendor/librashader-presets-0.10.1"
+        "url": "https://static.crates.io/crates/librashader-presets/librashader-presets-0.11.1.crate",
+        "sha256": "2159709c43bb43ba62c8e03e708a4e4efbff395509982cf77f38800fa17b873e",
+        "dest": "cargo/vendor/librashader-presets-0.11.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"2182ff80761bc07b463309ecc2b4d4542c83f0d2e48ec96e9f8e90977fa6cd4c\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-presets-0.10.1",
+        "contents": "{\"package\": \"2159709c43bb43ba62c8e03e708a4e4efbff395509982cf77f38800fa17b873e\", \"files\": {}}",
+        "dest": "cargo/vendor/librashader-presets-0.11.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-reflect/librashader-reflect-0.10.1.crate",
-        "sha256": "96a36e8b24f4a13ae931911cb59e65323e2902b81a1653dcdc86a20ac1980809",
-        "dest": "cargo/vendor/librashader-reflect-0.10.1"
+        "url": "https://static.crates.io/crates/librashader-reflect/librashader-reflect-0.11.1.crate",
+        "sha256": "f687d522cf8da14cd13fd2b5ca03a9f383f5ad3158612e9593dbd503aaaa7df8",
+        "dest": "cargo/vendor/librashader-reflect-0.11.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"96a36e8b24f4a13ae931911cb59e65323e2902b81a1653dcdc86a20ac1980809\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-reflect-0.10.1",
+        "contents": "{\"package\": \"f687d522cf8da14cd13fd2b5ca03a9f383f5ad3158612e9593dbd503aaaa7df8\", \"files\": {}}",
+        "dest": "cargo/vendor/librashader-reflect-0.11.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-runtime/librashader-runtime-0.10.1.crate",
-        "sha256": "1f401eb05f89595d1605d41f80b98933d9705337f9f5291a0628956dc0e72e09",
-        "dest": "cargo/vendor/librashader-runtime-0.10.1"
+        "url": "https://static.crates.io/crates/librashader-runtime/librashader-runtime-0.11.1.crate",
+        "sha256": "eff4a1df60c3f34abd769b569c0248f342c893004fb12a47775e853114d5ac49",
+        "dest": "cargo/vendor/librashader-runtime-0.11.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"1f401eb05f89595d1605d41f80b98933d9705337f9f5291a0628956dc0e72e09\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-runtime-0.10.1",
+        "contents": "{\"package\": \"eff4a1df60c3f34abd769b569c0248f342c893004fb12a47775e853114d5ac49\", \"files\": {}}",
+        "dest": "cargo/vendor/librashader-runtime-0.11.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-runtime-d3d11/librashader-runtime-d3d11-0.10.1.crate",
-        "sha256": "e10b5461c13babf3dabe0aba027cd99834526f72dc7a9bdb186667592d71f226",
-        "dest": "cargo/vendor/librashader-runtime-d3d11-0.10.1"
+        "url": "https://static.crates.io/crates/librashader-runtime-wgpu/librashader-runtime-wgpu-0.11.1.crate",
+        "sha256": "ca31bc2e966c23a388d3a08a5ae1a628771c36b4a68b6d6a500f648d5a9c0c6a",
+        "dest": "cargo/vendor/librashader-runtime-wgpu-0.11.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"e10b5461c13babf3dabe0aba027cd99834526f72dc7a9bdb186667592d71f226\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-runtime-d3d11-0.10.1",
+        "contents": "{\"package\": \"ca31bc2e966c23a388d3a08a5ae1a628771c36b4a68b6d6a500f648d5a9c0c6a\", \"files\": {}}",
+        "dest": "cargo/vendor/librashader-runtime-wgpu-0.11.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-runtime-d3d12/librashader-runtime-d3d12-0.10.1.crate",
-        "sha256": "1c2ef3e4f5998d1638188f96d37edaa403db97ebfbee12d873a8c47c7d8856fb",
-        "dest": "cargo/vendor/librashader-runtime-d3d12-0.10.1"
+        "url": "https://static.crates.io/crates/libredox/libredox-0.1.17.crate",
+        "sha256": "f02ab6bace2054fb888a3c16f990117b579d14a3088e472d63c6011fa185c9d3",
+        "dest": "cargo/vendor/libredox-0.1.17"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"1c2ef3e4f5998d1638188f96d37edaa403db97ebfbee12d873a8c47c7d8856fb\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-runtime-d3d12-0.10.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-runtime-d3d9/librashader-runtime-d3d9-0.10.1.crate",
-        "sha256": "946a47c4a32796ee33a9bb02d238f47305a45881054ad0c0585cb4e6704aa595",
-        "dest": "cargo/vendor/librashader-runtime-d3d9-0.10.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"946a47c4a32796ee33a9bb02d238f47305a45881054ad0c0585cb4e6704aa595\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-runtime-d3d9-0.10.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-runtime-gl/librashader-runtime-gl-0.10.1.crate",
-        "sha256": "b38b64f3481b5e823b43755504e1e8ad34a9dd08b9ed41aa4a9973935aafef36",
-        "dest": "cargo/vendor/librashader-runtime-gl-0.10.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"b38b64f3481b5e823b43755504e1e8ad34a9dd08b9ed41aa4a9973935aafef36\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-runtime-gl-0.10.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-runtime-mtl/librashader-runtime-mtl-0.10.1.crate",
-        "sha256": "139e0715a2e779aeee7f35778259df7cdf4514110ccf0db7bc60132d59b868bb",
-        "dest": "cargo/vendor/librashader-runtime-mtl-0.10.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"139e0715a2e779aeee7f35778259df7cdf4514110ccf0db7bc60132d59b868bb\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-runtime-mtl-0.10.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-runtime-vk/librashader-runtime-vk-0.10.1.crate",
-        "sha256": "d39f435de8593230be2be34a9c969c0d01d805b04cc568944441fa2ab20f1557",
-        "dest": "cargo/vendor/librashader-runtime-vk-0.10.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"d39f435de8593230be2be34a9c969c0d01d805b04cc568944441fa2ab20f1557\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-runtime-vk-0.10.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/librashader-runtime-wgpu/librashader-runtime-wgpu-0.10.1.crate",
-        "sha256": "5e323d473dc81a648dc59b49565f123325efd8ca2699fe462767ea51d31bfaa6",
-        "dest": "cargo/vendor/librashader-runtime-wgpu-0.10.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"5e323d473dc81a648dc59b49565f123325efd8ca2699fe462767ea51d31bfaa6\", \"files\": {}}",
-        "dest": "cargo/vendor/librashader-runtime-wgpu-0.10.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/libredox/libredox-0.1.16.crate",
-        "sha256": "e02f3bb43d335493c96bf3fd3a321600bf6bd07ed34bc64118e9293bdffea46c",
-        "dest": "cargo/vendor/libredox-0.1.16"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"e02f3bb43d335493c96bf3fd3a321600bf6bd07ed34bc64118e9293bdffea46c\", \"files\": {}}",
-        "dest": "cargo/vendor/libredox-0.1.16",
+        "contents": "{\"package\": \"f02ab6bace2054fb888a3c16f990117b579d14a3088e472d63c6011fa185c9d3\", \"files\": {}}",
+        "dest": "cargo/vendor/libredox-0.1.17",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3577,14 +3447,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/log/log-0.4.29.crate",
-        "sha256": "5e5032e24019045c762d3c0f28f5b6b8bbf38563a65908389bf7978758920897",
-        "dest": "cargo/vendor/log-0.4.29"
+        "url": "https://static.crates.io/crates/log/log-0.4.32.crate",
+        "sha256": "953f07c43838f8e6f9758cab68bf5bed85465e7587ebe0b823f1bcd81978ad3a",
+        "dest": "cargo/vendor/log-0.4.32"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"5e5032e24019045c762d3c0f28f5b6b8bbf38563a65908389bf7978758920897\", \"files\": {}}",
-        "dest": "cargo/vendor/log-0.4.29",
+        "contents": "{\"package\": \"953f07c43838f8e6f9758cab68bf5bed85465e7587ebe0b823f1bcd81978ad3a\", \"files\": {}}",
+        "dest": "cargo/vendor/log-0.4.32",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3598,19 +3468,6 @@
         "type": "inline",
         "contents": "{\"package\": \"7f66e8d5d03f609abc3a39e6f08e4164ebf1447a732906d39eb9b99b7919ef39\", \"files\": {}}",
         "dest": "cargo/vendor/lru-0.16.4",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/mach-siegbert-vogt-dxcsa/mach-siegbert-vogt-dxcsa-0.1.3.crate",
-        "sha256": "7d3e62358869047ad84e507d5bcd47e7f3917629947ba34ac0b3e5969db00a7b",
-        "dest": "cargo/vendor/mach-siegbert-vogt-dxcsa-0.1.3"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"7d3e62358869047ad84e507d5bcd47e7f3917629947ba34ac0b3e5969db00a7b\", \"files\": {}}",
-        "dest": "cargo/vendor/mach-siegbert-vogt-dxcsa-0.1.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3668,14 +3525,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/memchr/memchr-2.8.0.crate",
-        "sha256": "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79",
-        "dest": "cargo/vendor/memchr-2.8.0"
+        "url": "https://static.crates.io/crates/memchr/memchr-2.8.1.crate",
+        "sha256": "6b947ae49db0d222b1dbc6b113ce7248a3fc3a6ca21b696717bfc000ba4484d8",
+        "dest": "cargo/vendor/memchr-2.8.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79\", \"files\": {}}",
-        "dest": "cargo/vendor/memchr-2.8.0",
+        "contents": "{\"package\": \"6b947ae49db0d222b1dbc6b113ce7248a3fc3a6ca21b696717bfc000ba4484d8\", \"files\": {}}",
+        "dest": "cargo/vendor/memchr-2.8.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3702,32 +3559,6 @@
         "type": "inline",
         "contents": "{\"package\": \"488016bfae457b036d996092f6cb448677611ce4449e970ceaf42695203f218a\", \"files\": {}}",
         "dest": "cargo/vendor/memoffset-0.9.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/metal/metal-0.32.0.crate",
-        "sha256": "00c15a6f673ff72ddcc22394663290f870fb224c1bfce55734a75c414150e605",
-        "dest": "cargo/vendor/metal-0.32.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"00c15a6f673ff72ddcc22394663290f870fb224c1bfce55734a75c414150e605\", \"files\": {}}",
-        "dest": "cargo/vendor/metal-0.32.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/metal/metal-0.33.0.crate",
-        "sha256": "c7047791b5bc903b8cd963014b355f71dc9864a9a0b727057676c1dcae5cbc15",
-        "dest": "cargo/vendor/metal-0.33.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"c7047791b5bc903b8cd963014b355f71dc9864a9a0b727057676c1dcae5cbc15\", \"files\": {}}",
-        "dest": "cargo/vendor/metal-0.33.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3772,14 +3603,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/mio/mio-1.2.0.crate",
-        "sha256": "50b7e5b27aa02a74bac8c3f23f448f8d87ff11f92d3aac1a6ed369ee08cc56c1",
-        "dest": "cargo/vendor/mio-1.2.0"
+        "url": "https://static.crates.io/crates/mio/mio-1.2.1.crate",
+        "sha256": "02bd0af71c67b473010cbbc60715ee815645a4dc942899111f494b4b737d6fda",
+        "dest": "cargo/vendor/mio-1.2.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"50b7e5b27aa02a74bac8c3f23f448f8d87ff11f92d3aac1a6ed369ee08cc56c1\", \"files\": {}}",
-        "dest": "cargo/vendor/mio-1.2.0",
+        "contents": "{\"package\": \"02bd0af71c67b473010cbbc60715ee815645a4dc942899111f494b4b737d6fda\", \"files\": {}}",
+        "dest": "cargo/vendor/mio-1.2.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3824,14 +3655,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/naga/naga-28.0.0.crate",
-        "sha256": "618f667225063219ddfc61251087db8a9aec3c3f0950c916b614e403486f1135",
-        "dest": "cargo/vendor/naga-28.0.0"
+        "url": "https://static.crates.io/crates/naga/naga-29.0.3.crate",
+        "sha256": "0dd91265cc2454558f659b3b4b9640f0ddb8cc6521277f166b8a8c181c898079",
+        "dest": "cargo/vendor/naga-29.0.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"618f667225063219ddfc61251087db8a9aec3c3f0950c916b614e403486f1135\", \"files\": {}}",
-        "dest": "cargo/vendor/naga-28.0.0",
+        "contents": "{\"package\": \"0dd91265cc2454558f659b3b4b9640f0ddb8cc6521277f166b8a8c181c898079\", \"files\": {}}",
+        "dest": "cargo/vendor/naga-29.0.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -4448,14 +4279,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/orbclient/orbclient-0.3.54.crate",
-        "sha256": "a570f6bca41d29acb2139229a7c873ec99bc9a313bd10804081d89bfac8ff329",
-        "dest": "cargo/vendor/orbclient-0.3.54"
+        "url": "https://static.crates.io/crates/orbclient/orbclient-0.3.55.crate",
+        "sha256": "5df339f526ea9a60e371768d50efc2f2508c7203290731565d1f7a6f71d21747",
+        "dest": "cargo/vendor/orbclient-0.3.55"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"a570f6bca41d29acb2139229a7c873ec99bc9a313bd10804081d89bfac8ff329\", \"files\": {}}",
-        "dest": "cargo/vendor/orbclient-0.3.54",
+        "contents": "{\"package\": \"5df339f526ea9a60e371768d50efc2f2508c7203290731565d1f7a6f71d21747\", \"files\": {}}",
+        "dest": "cargo/vendor/orbclient-0.3.55",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5020,19 +4851,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/radium/radium-0.7.0.crate",
-        "sha256": "dc33ff2d4973d518d823d61aa239014831e521c75da58e3df4840d3f47749d09",
-        "dest": "cargo/vendor/radium-0.7.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"dc33ff2d4973d518d823d61aa239014831e521c75da58e3df4840d3f47749d09\", \"files\": {}}",
-        "dest": "cargo/vendor/radium-0.7.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/rand/rand-0.4.6.crate",
         "sha256": "552840b97013b1a26992c11eac34bdd778e464601a4c2054b5f0bff7c6761293",
         "dest": "cargo/vendor/rand-0.4.6"
@@ -5189,6 +5007,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/raw-window-metal/raw-window-metal-1.1.0.crate",
+        "sha256": "40d213455a5f1dc59214213c7330e074ddf8114c9a42411eb890c767357ce135",
+        "dest": "cargo/vendor/raw-window-metal-1.1.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"40d213455a5f1dc59214213c7330e074ddf8114c9a42411eb890c767357ce135\", \"files\": {}}",
+        "dest": "cargo/vendor/raw-window-metal-1.1.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/rayon/rayon-1.12.0.crate",
         "sha256": "fb39b166781f92d482534ef4b4b1b2568f42613b53e5b6c160e24cfbfa30926d",
         "dest": "cargo/vendor/rayon-1.12.0"
@@ -5241,14 +5072,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/read-fonts/read-fonts-0.37.0.crate",
-        "sha256": "7b634fabf032fab15307ffd272149b622260f55974d9fad689292a5d33df02e5",
-        "dest": "cargo/vendor/read-fonts-0.37.0"
+        "url": "https://static.crates.io/crates/read-fonts/read-fonts-0.39.2.crate",
+        "sha256": "c4ed38b89c2c77ff968c524145ad65fb010f38af5c7a224b53b81d47ac2daa81",
+        "dest": "cargo/vendor/read-fonts-0.39.2"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"7b634fabf032fab15307ffd272149b622260f55974d9fad689292a5d33df02e5\", \"files\": {}}",
-        "dest": "cargo/vendor/read-fonts-0.37.0",
+        "contents": "{\"package\": \"c4ed38b89c2c77ff968c524145ad65fb010f38af5c7a224b53b81d47ac2daa81\", \"files\": {}}",
+        "dest": "cargo/vendor/read-fonts-0.39.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5280,14 +5111,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/redox_syscall/redox_syscall-0.7.5.crate",
-        "sha256": "4666a1a60d8412eab19d94f6d13dcc9cea0a5ef4fdf6a5db306537413c661b1b",
-        "dest": "cargo/vendor/redox_syscall-0.7.5"
+        "url": "https://static.crates.io/crates/redox_syscall/redox_syscall-0.8.1.crate",
+        "sha256": "5b44b894f2a6e36457d665d1e08c3866add6ed5e70050c1b4ba8a8ddedb02ce7",
+        "dest": "cargo/vendor/redox_syscall-0.8.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"4666a1a60d8412eab19d94f6d13dcc9cea0a5ef4fdf6a5db306537413c661b1b\", \"files\": {}}",
-        "dest": "cargo/vendor/redox_syscall-0.7.5",
+        "contents": "{\"package\": \"5b44b894f2a6e36457d665d1e08c3866add6ed5e70050c1b4ba8a8ddedb02ce7\", \"files\": {}}",
+        "dest": "cargo/vendor/redox_syscall-0.8.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5319,14 +5150,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/regex/regex-1.12.3.crate",
-        "sha256": "e10754a14b9137dd7b1e3e5b0493cc9171fdd105e0ab477f51b72e7f3ac0e276",
-        "dest": "cargo/vendor/regex-1.12.3"
+        "url": "https://static.crates.io/crates/regex/regex-1.12.4.crate",
+        "sha256": "f1292b7759ae1cb9ec195452d1390a074f0cd8541ab7a5a8c31cd6db45d4a6ba",
+        "dest": "cargo/vendor/regex-1.12.4"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"e10754a14b9137dd7b1e3e5b0493cc9171fdd105e0ab477f51b72e7f3ac0e276\", \"files\": {}}",
-        "dest": "cargo/vendor/regex-1.12.3",
+        "contents": "{\"package\": \"f1292b7759ae1cb9ec195452d1390a074f0cd8541ab7a5a8c31cd6db45d4a6ba\", \"files\": {}}",
+        "dest": "cargo/vendor/regex-1.12.4",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5345,14 +5176,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/regex-syntax/regex-syntax-0.8.10.crate",
-        "sha256": "dc897dd8d9e8bd1ed8cdad82b5966c3e0ecae09fb1907d58efaa013543185d0a",
-        "dest": "cargo/vendor/regex-syntax-0.8.10"
+        "url": "https://static.crates.io/crates/regex-syntax/regex-syntax-0.8.11.crate",
+        "sha256": "d6f6ff9a378485b298a5286656da665ba74413d36db0979633275d2e708145d4",
+        "dest": "cargo/vendor/regex-syntax-0.8.11"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"dc897dd8d9e8bd1ed8cdad82b5966c3e0ecae09fb1907d58efaa013543185d0a\", \"files\": {}}",
-        "dest": "cargo/vendor/regex-syntax-0.8.10",
+        "contents": "{\"package\": \"d6f6ff9a378485b298a5286656da665ba74413d36db0979633275d2e708145d4\", \"files\": {}}",
+        "dest": "cargo/vendor/regex-syntax-0.8.11",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5397,14 +5228,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/rspirv/rspirv-0.12.0+sdk-1.3.268.0.crate",
-        "sha256": "69cf3a93856b6e5946537278df0d3075596371b1950ccff012f02b0f7eafec8d",
-        "dest": "cargo/vendor/rspirv-0.12.0+sdk-1.3.268.0"
+        "url": "https://static.crates.io/crates/rspirv/rspirv-0.13.0+sdk-1.4.341.0.crate",
+        "sha256": "091dca2e1d6fd3098417b5ec88e77e80d1ba5945750943419dc976858082c296",
+        "dest": "cargo/vendor/rspirv-0.13.0+sdk-1.4.341.0"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"69cf3a93856b6e5946537278df0d3075596371b1950ccff012f02b0f7eafec8d\", \"files\": {}}",
-        "dest": "cargo/vendor/rspirv-0.12.0+sdk-1.3.268.0",
+        "contents": "{\"package\": \"091dca2e1d6fd3098417b5ec88e77e80d1ba5945750943419dc976858082c296\", \"files\": {}}",
+        "dest": "cargo/vendor/rspirv-0.13.0+sdk-1.4.341.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5605,14 +5436,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/serde_json/serde_json-1.0.149.crate",
-        "sha256": "83fc039473c5595ace860d8c4fafa220ff474b3fc6bfdb4293327f1a37e94d86",
-        "dest": "cargo/vendor/serde_json-1.0.149"
+        "url": "https://static.crates.io/crates/serde_json/serde_json-1.0.150.crate",
+        "sha256": "e8014e44b4736ed0538adeecded0fce2a272f22dc9578a7eb6b2d9993c74cfb9",
+        "dest": "cargo/vendor/serde_json-1.0.150"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"83fc039473c5595ace860d8c4fafa220ff474b3fc6bfdb4293327f1a37e94d86\", \"files\": {}}",
-        "dest": "cargo/vendor/serde_json-1.0.149",
+        "contents": "{\"package\": \"e8014e44b4736ed0538adeecded0fce2a272f22dc9578a7eb6b2d9993c74cfb9\", \"files\": {}}",
+        "dest": "cargo/vendor/serde_json-1.0.150",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5678,6 +5509,19 @@
         "type": "inline",
         "contents": "{\"package\": \"0fda2ff0d084019ba4d7c6f371c95d8fd75ce3524c3cb8fb653a3023f6323e64\", \"files\": {}}",
         "dest": "cargo/vendor/shlex-1.3.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/shlex/shlex-2.0.1.crate",
+        "sha256": "f8fadd59c855ef2080decdef8ff161eb6661b86933c9d82e5ba29dc602a55aba",
+        "dest": "cargo/vendor/shlex-2.0.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"f8fadd59c855ef2080decdef8ff161eb6661b86933c9d82e5ba29dc602a55aba\", \"files\": {}}",
+        "dest": "cargo/vendor/shlex-2.0.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5761,14 +5605,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/skrifa/skrifa-0.40.0.crate",
-        "sha256": "7fbdfe3d2475fbd7ddd1f3e5cf8288a30eb3e5f95832829570cd88115a7434ac",
-        "dest": "cargo/vendor/skrifa-0.40.0"
+        "url": "https://static.crates.io/crates/skrifa/skrifa-0.42.1.crate",
+        "sha256": "0c34617370ae968efb7161bb2beb517d9084659aae19e24b89e3db25b46e4564",
+        "dest": "cargo/vendor/skrifa-0.42.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"7fbdfe3d2475fbd7ddd1f3e5cf8288a30eb3e5f95832829570cd88115a7434ac\", \"files\": {}}",
-        "dest": "cargo/vendor/skrifa-0.40.0",
+        "contents": "{\"package\": \"0c34617370ae968efb7161bb2beb517d9084659aae19e24b89e3db25b46e4564\", \"files\": {}}",
+        "dest": "cargo/vendor/skrifa-0.42.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5891,40 +5735,40 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/spirv/spirv-0.3.0+sdk-1.3.268.0.crate",
-        "sha256": "eda41003dc44290527a59b13432d4a0379379fa074b70174882adfbdfd917844",
-        "dest": "cargo/vendor/spirv-0.3.0+sdk-1.3.268.0"
+        "url": "https://static.crates.io/crates/spirv/spirv-0.4.0+sdk-1.4.341.0.crate",
+        "sha256": "d9571ea910ebd84c86af4b3ed27f9dbdc6ad06f17c5f96146b2b671e2976744f",
+        "dest": "cargo/vendor/spirv-0.4.0+sdk-1.4.341.0"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"eda41003dc44290527a59b13432d4a0379379fa074b70174882adfbdfd917844\", \"files\": {}}",
-        "dest": "cargo/vendor/spirv-0.3.0+sdk-1.3.268.0",
+        "contents": "{\"package\": \"d9571ea910ebd84c86af4b3ed27f9dbdc6ad06f17c5f96146b2b671e2976744f\", \"files\": {}}",
+        "dest": "cargo/vendor/spirv-0.4.0+sdk-1.4.341.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/spirv-cross-sys/spirv-cross-sys-0.4.3+e670b39.crate",
-        "sha256": "85a1966fed47a227b129a34440657270dd1b47c7771f2b2637b82ff6dfcbde0b",
-        "dest": "cargo/vendor/spirv-cross-sys-0.4.3+e670b39"
+        "url": "https://static.crates.io/crates/spirv-cross-sys/spirv-cross-sys-0.7.2+38681a3.crate",
+        "sha256": "9291b270f65ee1e61842d0a4dadc707d3b1669d8001e0900433e341c897d5d1b",
+        "dest": "cargo/vendor/spirv-cross-sys-0.7.2+38681a3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"85a1966fed47a227b129a34440657270dd1b47c7771f2b2637b82ff6dfcbde0b\", \"files\": {}}",
-        "dest": "cargo/vendor/spirv-cross-sys-0.4.3+e670b39",
+        "contents": "{\"package\": \"9291b270f65ee1e61842d0a4dadc707d3b1669d8001e0900433e341c897d5d1b\", \"files\": {}}",
+        "dest": "cargo/vendor/spirv-cross-sys-0.7.2+38681a3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/spirv-cross2/spirv-cross2-0.4.6.crate",
-        "sha256": "7c248b63ebea5a3153214091875d63cc0bacbe4743c13e20dc54bd73ba847972",
-        "dest": "cargo/vendor/spirv-cross2-0.4.6"
+        "url": "https://static.crates.io/crates/spirv-cross2/spirv-cross2-0.7.1.crate",
+        "sha256": "7e01f93f6f1637a1a72b43d2ca50ebbcd94c3f4c4e94eda8e27144834671f008",
+        "dest": "cargo/vendor/spirv-cross2-0.7.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"7c248b63ebea5a3153214091875d63cc0bacbe4743c13e20dc54bd73ba847972\", \"files\": {}}",
-        "dest": "cargo/vendor/spirv-cross2-0.4.6",
+        "contents": "{\"package\": \"7e01f93f6f1637a1a72b43d2ca50ebbcd94c3f4c4e94eda8e27144834671f008\", \"files\": {}}",
+        "dest": "cargo/vendor/spirv-cross2-0.7.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5938,32 +5782,6 @@
         "type": "inline",
         "contents": "{\"package\": \"18017a288e6ce64dd5d56510166baeabb01849483555c031f573c091b6934a64\", \"files\": {}}",
         "dest": "cargo/vendor/spirv-cross2-derive-0.1.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/spirv-to-dxil/spirv-to-dxil-0.4.7.crate",
-        "sha256": "5a3fb4188c288f0bcf2d6e18a74647a6346ce974c7751ca075de89e4949d4b0e",
-        "dest": "cargo/vendor/spirv-to-dxil-0.4.7"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"5a3fb4188c288f0bcf2d6e18a74647a6346ce974c7751ca075de89e4949d4b0e\", \"files\": {}}",
-        "dest": "cargo/vendor/spirv-to-dxil-0.4.7",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/spirv-to-dxil-sys/spirv-to-dxil-sys-0.4.7.crate",
-        "sha256": "037a06e11f21b121d2aff4575185e1f61486908d1202f91d55997b05fdc51140",
-        "dest": "cargo/vendor/spirv-to-dxil-sys-0.4.7"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"037a06e11f21b121d2aff4575185e1f61486908d1202f91d55997b05fdc51140\", \"files\": {}}",
-        "dest": "cargo/vendor/spirv-to-dxil-sys-0.4.7",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6021,6 +5839,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/strumbra/strumbra-0.6.0.crate",
+        "sha256": "9b498044485e2789b38e047fdb4c7ac827bd72d66407af9e5d15626f9c45364e",
+        "dest": "cargo/vendor/strumbra-0.6.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"9b498044485e2789b38e047fdb4c7ac827bd72d66407af9e5d15626f9c45364e\", \"files\": {}}",
+        "dest": "cargo/vendor/strumbra-0.6.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/svg_fmt/svg_fmt-0.4.5.crate",
         "sha256": "0193cc4331cfd2f3d2011ef287590868599a2f33c3e69bc22c1a3d3acf9e02fb",
         "dest": "cargo/vendor/svg_fmt-0.4.5"
@@ -6034,14 +5865,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/swash/swash-0.2.7.crate",
-        "sha256": "842f3cd369c2ba38966204f983eaa5e54a8e84a7d7159ed36ade2b6c335aae64",
-        "dest": "cargo/vendor/swash-0.2.7"
+        "url": "https://static.crates.io/crates/swash/swash-0.2.8.crate",
+        "sha256": "d1804632b66a35ca2b1d277eb0a138e10f46cb365b9a6d297e876b69ef79de43",
+        "dest": "cargo/vendor/swash-0.2.8"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"842f3cd369c2ba38966204f983eaa5e54a8e84a7d7159ed36ade2b6c335aae64\", \"files\": {}}",
-        "dest": "cargo/vendor/swash-0.2.7",
+        "contents": "{\"package\": \"d1804632b66a35ca2b1d277eb0a138e10f46cb365b9a6d297e876b69ef79de43\", \"files\": {}}",
+        "dest": "cargo/vendor/swash-0.2.8",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6081,19 +5912,6 @@
         "type": "inline",
         "contents": "{\"package\": \"aea22054047c16c3f34d3ac473a2170be1424b1115b2a3adcf28cfb067c88859\", \"files\": {}}",
         "dest": "cargo/vendor/taffy-0.10.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/tap/tap-1.0.1.crate",
-        "sha256": "55937e1799185b12863d447f42597ed69d9928686b8d88a1df17376a097d8369",
-        "dest": "cargo/vendor/tap-1.0.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"55937e1799185b12863d447f42597ed69d9928686b8d88a1df17376a097d8369\", \"files\": {}}",
-        "dest": "cargo/vendor/tap-1.0.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6372,14 +6190,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/toml_edit/toml_edit-0.25.11+spec-1.1.0.crate",
-        "sha256": "0b59c4d22ed448339746c59b905d24568fcbb3ab65a500494f7b8c3e97739f2b",
-        "dest": "cargo/vendor/toml_edit-0.25.11+spec-1.1.0"
+        "url": "https://static.crates.io/crates/toml_edit/toml_edit-0.25.12+spec-1.1.0.crate",
+        "sha256": "d2153edc6955a6c354fad8f5efd38b6a8769bdccf9fe50f8e1329f81b0baa5d7",
+        "dest": "cargo/vendor/toml_edit-0.25.12+spec-1.1.0"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"0b59c4d22ed448339746c59b905d24568fcbb3ab65a500494f7b8c3e97739f2b\", \"files\": {}}",
-        "dest": "cargo/vendor/toml_edit-0.25.11+spec-1.1.0",
+        "contents": "{\"package\": \"d2153edc6955a6c354fad8f5efd38b6a8769bdccf9fe50f8e1329f81b0baa5d7\", \"files\": {}}",
+        "dest": "cargo/vendor/toml_edit-0.25.12+spec-1.1.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6489,19 +6307,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/triomphe/triomphe-0.1.15.crate",
-        "sha256": "dd69c5aa8f924c7519d6372789a74eac5b94fb0f8fcf0d4a97eb0bfc3e785f39",
-        "dest": "cargo/vendor/triomphe-0.1.15"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"dd69c5aa8f924c7519d6372789a74eac5b94fb0f8fcf0d4a97eb0bfc3e785f39\", \"files\": {}}",
-        "dest": "cargo/vendor/triomphe-0.1.15",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/ttf-parser/ttf-parser-0.25.1.crate",
         "sha256": "d2df906b07856748fa3f6e0ad0cbaa047052d4a7dd609e231c4f72cee8c36f31",
         "dest": "cargo/vendor/ttf-parser-0.25.1"
@@ -6528,14 +6333,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/typenum/typenum-1.20.0.crate",
-        "sha256": "40ce102ab67701b8526c123c1bab5cbe42d7040ccfd0f64af1a385808d2f43de",
-        "dest": "cargo/vendor/typenum-1.20.0"
+        "url": "https://static.crates.io/crates/typenum/typenum-1.20.1.crate",
+        "sha256": "b6f5e870be6c3b371b77fe0ee0bafb859fa4964b4404c27de1d380043c4dda20",
+        "dest": "cargo/vendor/typenum-1.20.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"40ce102ab67701b8526c123c1bab5cbe42d7040ccfd0f64af1a385808d2f43de\", \"files\": {}}",
-        "dest": "cargo/vendor/typenum-1.20.0",
+        "contents": "{\"package\": \"b6f5e870be6c3b371b77fe0ee0bafb859fa4964b4404c27de1d380043c4dda20\", \"files\": {}}",
+        "dest": "cargo/vendor/typenum-1.20.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6580,14 +6385,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/unicode-segmentation/unicode-segmentation-1.13.2.crate",
-        "sha256": "9629274872b2bfaf8d66f5f15725007f635594914870f65218920345aa11aa8c",
-        "dest": "cargo/vendor/unicode-segmentation-1.13.2"
+        "url": "https://static.crates.io/crates/unicode-segmentation/unicode-segmentation-1.13.3.crate",
+        "sha256": "c6f5d3c3b1bf09027a88a6bc961fc00497d651009560b5463668dc81b0fa87a8",
+        "dest": "cargo/vendor/unicode-segmentation-1.13.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"9629274872b2bfaf8d66f5f15725007f635594914870f65218920345aa11aa8c\", \"files\": {}}",
-        "dest": "cargo/vendor/unicode-segmentation-1.13.2",
+        "contents": "{\"package\": \"c6f5d3c3b1bf09027a88a6bc961fc00497d651009560b5463668dc81b0fa87a8\", \"files\": {}}",
+        "dest": "cargo/vendor/unicode-segmentation-1.13.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6801,105 +6606,105 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wasm-bindgen/wasm-bindgen-0.2.121.crate",
-        "sha256": "49ace1d07c165b0864824eee619580c4689389afa9dc9ed3a4c75040d82e6790",
-        "dest": "cargo/vendor/wasm-bindgen-0.2.121"
+        "url": "https://static.crates.io/crates/wasm-bindgen/wasm-bindgen-0.2.123.crate",
+        "sha256": "a254a4b10c19a76f09a27640e7ffbf9bc30bf67e16a3bf28aaefa4920fe81563",
+        "dest": "cargo/vendor/wasm-bindgen-0.2.123"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"49ace1d07c165b0864824eee619580c4689389afa9dc9ed3a4c75040d82e6790\", \"files\": {}}",
-        "dest": "cargo/vendor/wasm-bindgen-0.2.121",
+        "contents": "{\"package\": \"a254a4b10c19a76f09a27640e7ffbf9bc30bf67e16a3bf28aaefa4920fe81563\", \"files\": {}}",
+        "dest": "cargo/vendor/wasm-bindgen-0.2.123",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wasm-bindgen-futures/wasm-bindgen-futures-0.4.71.crate",
-        "sha256": "96492d0d3ffba25305a7dc88720d250b1401d7edca02cc3bcd50633b424673b8",
-        "dest": "cargo/vendor/wasm-bindgen-futures-0.4.71"
+        "url": "https://static.crates.io/crates/wasm-bindgen-futures/wasm-bindgen-futures-0.4.73.crate",
+        "sha256": "54568702fabf5d4849ce2b90fadfa64168a097eaf4b351ce9df8b687a0086aaf",
+        "dest": "cargo/vendor/wasm-bindgen-futures-0.4.73"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"96492d0d3ffba25305a7dc88720d250b1401d7edca02cc3bcd50633b424673b8\", \"files\": {}}",
-        "dest": "cargo/vendor/wasm-bindgen-futures-0.4.71",
+        "contents": "{\"package\": \"54568702fabf5d4849ce2b90fadfa64168a097eaf4b351ce9df8b687a0086aaf\", \"files\": {}}",
+        "dest": "cargo/vendor/wasm-bindgen-futures-0.4.73",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wasm-bindgen-macro/wasm-bindgen-macro-0.2.121.crate",
-        "sha256": "8e68e6f4afd367a562002c05637acb8578ff2dea1943df76afb9e83d177c8578",
-        "dest": "cargo/vendor/wasm-bindgen-macro-0.2.121"
+        "url": "https://static.crates.io/crates/wasm-bindgen-macro/wasm-bindgen-macro-0.2.123.crate",
+        "sha256": "24a40fc75b0ec6f3746ceb10d36f53a93dcd68a93b11b6445983945d79eba0dc",
+        "dest": "cargo/vendor/wasm-bindgen-macro-0.2.123"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"8e68e6f4afd367a562002c05637acb8578ff2dea1943df76afb9e83d177c8578\", \"files\": {}}",
-        "dest": "cargo/vendor/wasm-bindgen-macro-0.2.121",
+        "contents": "{\"package\": \"24a40fc75b0ec6f3746ceb10d36f53a93dcd68a93b11b6445983945d79eba0dc\", \"files\": {}}",
+        "dest": "cargo/vendor/wasm-bindgen-macro-0.2.123",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wasm-bindgen-macro-support/wasm-bindgen-macro-support-0.2.121.crate",
-        "sha256": "d95a9ec35c64b2a7cb35d3fead40c4238d0940c86d107136999567a4703259f2",
-        "dest": "cargo/vendor/wasm-bindgen-macro-support-0.2.121"
+        "url": "https://static.crates.io/crates/wasm-bindgen-macro-support/wasm-bindgen-macro-support-0.2.123.crate",
+        "sha256": "908f34bd9b9ce3d4caf07b72dfab63d61504d156856c6bd3cd87fa350cf3985b",
+        "dest": "cargo/vendor/wasm-bindgen-macro-support-0.2.123"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"d95a9ec35c64b2a7cb35d3fead40c4238d0940c86d107136999567a4703259f2\", \"files\": {}}",
-        "dest": "cargo/vendor/wasm-bindgen-macro-support-0.2.121",
+        "contents": "{\"package\": \"908f34bd9b9ce3d4caf07b72dfab63d61504d156856c6bd3cd87fa350cf3985b\", \"files\": {}}",
+        "dest": "cargo/vendor/wasm-bindgen-macro-support-0.2.123",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wasm-bindgen-shared/wasm-bindgen-shared-0.2.121.crate",
-        "sha256": "c4e0100b01e9f0d03189a92b96772a1fb998639d981193d7dbab487302513441",
-        "dest": "cargo/vendor/wasm-bindgen-shared-0.2.121"
+        "url": "https://static.crates.io/crates/wasm-bindgen-shared/wasm-bindgen-shared-0.2.123.crate",
+        "sha256": "7acbf7616c27b194bbb550bf77ed0c2c3e5b7fd1260a93082b95fb7f47959b92",
+        "dest": "cargo/vendor/wasm-bindgen-shared-0.2.123"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"c4e0100b01e9f0d03189a92b96772a1fb998639d981193d7dbab487302513441\", \"files\": {}}",
-        "dest": "cargo/vendor/wasm-bindgen-shared-0.2.121",
+        "contents": "{\"package\": \"7acbf7616c27b194bbb550bf77ed0c2c3e5b7fd1260a93082b95fb7f47959b92\", \"files\": {}}",
+        "dest": "cargo/vendor/wasm-bindgen-shared-0.2.123",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wasm-bindgen-test/wasm-bindgen-test-0.3.71.crate",
-        "sha256": "af5ec93229ad9ccd0a545a516dec76dc276613f278f6a91aa6b463d5b33d42d0",
-        "dest": "cargo/vendor/wasm-bindgen-test-0.3.71"
+        "url": "https://static.crates.io/crates/wasm-bindgen-test/wasm-bindgen-test-0.3.73.crate",
+        "sha256": "e28a0782b173cf2e98f62aacb487c5c021b7c5925df46098675f28e1fa85e159",
+        "dest": "cargo/vendor/wasm-bindgen-test-0.3.73"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"af5ec93229ad9ccd0a545a516dec76dc276613f278f6a91aa6b463d5b33d42d0\", \"files\": {}}",
-        "dest": "cargo/vendor/wasm-bindgen-test-0.3.71",
+        "contents": "{\"package\": \"e28a0782b173cf2e98f62aacb487c5c021b7c5925df46098675f28e1fa85e159\", \"files\": {}}",
+        "dest": "cargo/vendor/wasm-bindgen-test-0.3.73",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wasm-bindgen-test-macro/wasm-bindgen-test-macro-0.3.71.crate",
-        "sha256": "3c81b9fef827e575e0e54431736d1baa0d700315d8c62cfef1f61fa3aad0cbeb",
-        "dest": "cargo/vendor/wasm-bindgen-test-macro-0.3.71"
+        "url": "https://static.crates.io/crates/wasm-bindgen-test-macro/wasm-bindgen-test-macro-0.3.73.crate",
+        "sha256": "ee997551ce1ad5adda03f7ce37ec34b4140fe9f547fd07b46d55901d1ba1a06b",
+        "dest": "cargo/vendor/wasm-bindgen-test-macro-0.3.73"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"3c81b9fef827e575e0e54431736d1baa0d700315d8c62cfef1f61fa3aad0cbeb\", \"files\": {}}",
-        "dest": "cargo/vendor/wasm-bindgen-test-macro-0.3.71",
+        "contents": "{\"package\": \"ee997551ce1ad5adda03f7ce37ec34b4140fe9f547fd07b46d55901d1ba1a06b\", \"files\": {}}",
+        "dest": "cargo/vendor/wasm-bindgen-test-macro-0.3.73",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wasm-bindgen-test-shared/wasm-bindgen-test-shared-0.2.121.crate",
-        "sha256": "4f4d8ae7ad5440360e9799dfd42857d126454a88441ddf72d288ef83fa47f527",
-        "dest": "cargo/vendor/wasm-bindgen-test-shared-0.2.121"
+        "url": "https://static.crates.io/crates/wasm-bindgen-test-shared/wasm-bindgen-test-shared-0.2.123.crate",
+        "sha256": "ae0f005eb61f765eff31a79ef71df7e21819731268a868df41192c1e41d6d3e5",
+        "dest": "cargo/vendor/wasm-bindgen-test-shared-0.2.123"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"4f4d8ae7ad5440360e9799dfd42857d126454a88441ddf72d288ef83fa47f527\", \"files\": {}}",
-        "dest": "cargo/vendor/wasm-bindgen-test-shared-0.2.121",
+        "contents": "{\"package\": \"ae0f005eb61f765eff31a79ef71df7e21819731268a868df41192c1e41d6d3e5\", \"files\": {}}",
+        "dest": "cargo/vendor/wasm-bindgen-test-shared-0.2.123",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -7087,14 +6892,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/web-sys/web-sys-0.3.98.crate",
-        "sha256": "4b572dff8bcf38bad0fa19729c89bb5748b2b9b1d8be70cf90df697e3a8f32aa",
-        "dest": "cargo/vendor/web-sys-0.3.98"
+        "url": "https://static.crates.io/crates/web-sys/web-sys-0.3.100.crate",
+        "sha256": "6e0871acf327f283dc6da28a1696cdc64fb355ba9f935d052021fa77f35cce69",
+        "dest": "cargo/vendor/web-sys-0.3.100"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"4b572dff8bcf38bad0fa19729c89bb5748b2b9b1d8be70cf90df697e3a8f32aa\", \"files\": {}}",
-        "dest": "cargo/vendor/web-sys-0.3.98",
+        "contents": "{\"package\": \"6e0871acf327f283dc6da28a1696cdc64fb355ba9f935d052021fa77f35cce69\", \"files\": {}}",
+        "dest": "cargo/vendor/web-sys-0.3.100",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -7126,118 +6931,118 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wgpu/wgpu-28.0.0.crate",
-        "sha256": "f9cb534d5ffd109c7d1135f34cdae29e60eab94855a625dcfe1705f8bc7ad79f",
-        "dest": "cargo/vendor/wgpu-28.0.0"
+        "url": "https://static.crates.io/crates/wgpu/wgpu-29.0.3.crate",
+        "sha256": "bb3feacc458f7bee8bc1737149b42b6c731aa461039a4264a67bb6681646b250",
+        "dest": "cargo/vendor/wgpu-29.0.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"f9cb534d5ffd109c7d1135f34cdae29e60eab94855a625dcfe1705f8bc7ad79f\", \"files\": {}}",
-        "dest": "cargo/vendor/wgpu-28.0.0",
+        "contents": "{\"package\": \"bb3feacc458f7bee8bc1737149b42b6c731aa461039a4264a67bb6681646b250\", \"files\": {}}",
+        "dest": "cargo/vendor/wgpu-29.0.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wgpu-core/wgpu-core-28.0.1.crate",
-        "sha256": "d23f4642f53f666adcfd2d3218ab174d1e6681101aef18696b90cbe64d1c10f9",
-        "dest": "cargo/vendor/wgpu-core-28.0.1"
+        "url": "https://static.crates.io/crates/wgpu-core/wgpu-core-29.0.3.crate",
+        "sha256": "02da3ad1b568337f25513b317870960ef87073ea0945502e44b864b67a8c77b7",
+        "dest": "cargo/vendor/wgpu-core-29.0.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"d23f4642f53f666adcfd2d3218ab174d1e6681101aef18696b90cbe64d1c10f9\", \"files\": {}}",
-        "dest": "cargo/vendor/wgpu-core-28.0.1",
+        "contents": "{\"package\": \"02da3ad1b568337f25513b317870960ef87073ea0945502e44b864b67a8c77b7\", \"files\": {}}",
+        "dest": "cargo/vendor/wgpu-core-29.0.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wgpu-core-deps-apple/wgpu-core-deps-apple-28.0.0.crate",
-        "sha256": "87b7b696b918f337c486bf93142454080a32a37832ba8a31e4f48221890047da",
-        "dest": "cargo/vendor/wgpu-core-deps-apple-28.0.0"
+        "url": "https://static.crates.io/crates/wgpu-core-deps-apple/wgpu-core-deps-apple-29.0.3.crate",
+        "sha256": "62e51b5447e144b3dbba4feb01f80f4fa21696fa0cd99afb2c3df1affd6fdb28",
+        "dest": "cargo/vendor/wgpu-core-deps-apple-29.0.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"87b7b696b918f337c486bf93142454080a32a37832ba8a31e4f48221890047da\", \"files\": {}}",
-        "dest": "cargo/vendor/wgpu-core-deps-apple-28.0.0",
+        "contents": "{\"package\": \"62e51b5447e144b3dbba4feb01f80f4fa21696fa0cd99afb2c3df1affd6fdb28\", \"files\": {}}",
+        "dest": "cargo/vendor/wgpu-core-deps-apple-29.0.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wgpu-core-deps-emscripten/wgpu-core-deps-emscripten-28.0.0.crate",
-        "sha256": "34b251c331f84feac147de3c4aa3aa45112622a95dd7ee1b74384fa0458dbd79",
-        "dest": "cargo/vendor/wgpu-core-deps-emscripten-28.0.0"
+        "url": "https://static.crates.io/crates/wgpu-core-deps-emscripten/wgpu-core-deps-emscripten-29.0.3.crate",
+        "sha256": "3487cd6293a963bc5c0c0396f6a2192043c50003c07f4efdccbad3d90ec9d819",
+        "dest": "cargo/vendor/wgpu-core-deps-emscripten-29.0.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"34b251c331f84feac147de3c4aa3aa45112622a95dd7ee1b74384fa0458dbd79\", \"files\": {}}",
-        "dest": "cargo/vendor/wgpu-core-deps-emscripten-28.0.0",
+        "contents": "{\"package\": \"3487cd6293a963bc5c0c0396f6a2192043c50003c07f4efdccbad3d90ec9d819\", \"files\": {}}",
+        "dest": "cargo/vendor/wgpu-core-deps-emscripten-29.0.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wgpu-core-deps-windows-linux-android/wgpu-core-deps-windows-linux-android-28.0.0.crate",
-        "sha256": "68ca976e72b2c9964eb243e281f6ce7f14a514e409920920dcda12ae40febaae",
-        "dest": "cargo/vendor/wgpu-core-deps-windows-linux-android-28.0.0"
+        "url": "https://static.crates.io/crates/wgpu-core-deps-windows-linux-android/wgpu-core-deps-windows-linux-android-29.0.3.crate",
+        "sha256": "1bfb01076d0aa08b0ba9bd741e178b5cc440f5abe99d9581323a4c8b5d1a1916",
+        "dest": "cargo/vendor/wgpu-core-deps-windows-linux-android-29.0.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"68ca976e72b2c9964eb243e281f6ce7f14a514e409920920dcda12ae40febaae\", \"files\": {}}",
-        "dest": "cargo/vendor/wgpu-core-deps-windows-linux-android-28.0.0",
+        "contents": "{\"package\": \"1bfb01076d0aa08b0ba9bd741e178b5cc440f5abe99d9581323a4c8b5d1a1916\", \"files\": {}}",
+        "dest": "cargo/vendor/wgpu-core-deps-windows-linux-android-29.0.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wgpu-hal/wgpu-hal-28.0.1.crate",
-        "sha256": "44d6cb474beb218824dcc9e1ce679d973f719262789bfb27407da560cac20eeb",
-        "dest": "cargo/vendor/wgpu-hal-28.0.1"
+        "url": "https://static.crates.io/crates/wgpu-hal/wgpu-hal-29.0.3.crate",
+        "sha256": "31f8e1a9e7a8512f276f7c62e018c7fa8d60954303fed2e5750114332049193f",
+        "dest": "cargo/vendor/wgpu-hal-29.0.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"44d6cb474beb218824dcc9e1ce679d973f719262789bfb27407da560cac20eeb\", \"files\": {}}",
-        "dest": "cargo/vendor/wgpu-hal-28.0.1",
+        "contents": "{\"package\": \"31f8e1a9e7a8512f276f7c62e018c7fa8d60954303fed2e5750114332049193f\", \"files\": {}}",
+        "dest": "cargo/vendor/wgpu-hal-29.0.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wgpu-types/wgpu-types-28.0.0.crate",
-        "sha256": "e18308757e594ed2cd27dddbb16a139c42a683819d32a2e0b1b0167552f5840c",
-        "dest": "cargo/vendor/wgpu-types-28.0.0"
+        "url": "https://static.crates.io/crates/wgpu-naga-bridge/wgpu-naga-bridge-29.0.3.crate",
+        "sha256": "59c654c483f058800972c3645e95388a7eca31bf9fe1933bc20e036588a0be02",
+        "dest": "cargo/vendor/wgpu-naga-bridge-29.0.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"e18308757e594ed2cd27dddbb16a139c42a683819d32a2e0b1b0167552f5840c\", \"files\": {}}",
-        "dest": "cargo/vendor/wgpu-types-28.0.0",
+        "contents": "{\"package\": \"59c654c483f058800972c3645e95388a7eca31bf9fe1933bc20e036588a0be02\", \"files\": {}}",
+        "dest": "cargo/vendor/wgpu-naga-bridge-29.0.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wide/wide-1.4.0.crate",
-        "sha256": "9a7714cd0430a663154667c74da5d09325c2387695bee18b3f7f72825aa3693a",
-        "dest": "cargo/vendor/wide-1.4.0"
+        "url": "https://static.crates.io/crates/wgpu-types/wgpu-types-29.0.3.crate",
+        "sha256": "a9bcc31518a0e9735aefebedb5f7a9ef3ed1c42549c9f4c882fa9060ceaac639",
+        "dest": "cargo/vendor/wgpu-types-29.0.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"9a7714cd0430a663154667c74da5d09325c2387695bee18b3f7f72825aa3693a\", \"files\": {}}",
-        "dest": "cargo/vendor/wide-1.4.0",
+        "contents": "{\"package\": \"a9bcc31518a0e9735aefebedb5f7a9ef3ed1c42549c9f4c882fa9060ceaac639\", \"files\": {}}",
+        "dest": "cargo/vendor/wgpu-types-29.0.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/widestring/widestring-1.2.1.crate",
-        "sha256": "72069c3113ab32ab29e5584db3c6ec55d416895e60715417b5b883a357c3e471",
-        "dest": "cargo/vendor/widestring-1.2.1"
+        "url": "https://static.crates.io/crates/wide/wide-1.5.0.crate",
+        "sha256": "dfdfe6a32973f2d1b268b8895845a8a96cac2f0191e72c27cc929036060dbf89",
+        "dest": "cargo/vendor/wide-1.5.0"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"72069c3113ab32ab29e5584db3c6ec55d416895e60715417b5b883a357c3e471\", \"files\": {}}",
-        "dest": "cargo/vendor/widestring-1.2.1",
+        "contents": "{\"package\": \"dfdfe6a32973f2d1b268b8895845a8a96cac2f0191e72c27cc929036060dbf89\", \"files\": {}}",
+        "dest": "cargo/vendor/wide-1.5.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -7321,19 +7126,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/windows/windows-0.58.0.crate",
-        "sha256": "dd04d41d93c4992d421894c18c8b43496aa748dd4c081bac0dc93eb0489272b6",
-        "dest": "cargo/vendor/windows-0.58.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"dd04d41d93c4992d421894c18c8b43496aa748dd4c081bac0dc93eb0489272b6\", \"files\": {}}",
-        "dest": "cargo/vendor/windows-0.58.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/windows/windows-0.62.2.crate",
         "sha256": "527fadee13e0c05939a6a05d5bd6eec6cd2e3dbd648b9f8e447c6518133d8580",
         "dest": "cargo/vendor/windows-0.62.2"
@@ -7373,19 +7165,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/windows-core/windows-core-0.58.0.crate",
-        "sha256": "6ba6d44ec8c2591c134257ce647b7ea6b20335bf6379a27dac5f1641fcf59f99",
-        "dest": "cargo/vendor/windows-core-0.58.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"6ba6d44ec8c2591c134257ce647b7ea6b20335bf6379a27dac5f1641fcf59f99\", \"files\": {}}",
-        "dest": "cargo/vendor/windows-core-0.58.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/windows-core/windows-core-0.62.2.crate",
         "sha256": "b8e83a14d34d0623b51dce9581199302a221863196a1dde71a7663a4c2be9deb",
         "dest": "cargo/vendor/windows-core-0.62.2"
@@ -7412,19 +7191,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/windows-implement/windows-implement-0.58.0.crate",
-        "sha256": "2bbd5b46c938e506ecbce286b6628a02171d56153ba733b6c741fc627ec9579b",
-        "dest": "cargo/vendor/windows-implement-0.58.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"2bbd5b46c938e506ecbce286b6628a02171d56153ba733b6c741fc627ec9579b\", \"files\": {}}",
-        "dest": "cargo/vendor/windows-implement-0.58.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/windows-implement/windows-implement-0.60.2.crate",
         "sha256": "053e2e040ab57b9dc951b72c264860db7eb3b0200ba345b4e4c3b14f67855ddf",
         "dest": "cargo/vendor/windows-implement-0.60.2"
@@ -7433,19 +7199,6 @@
         "type": "inline",
         "contents": "{\"package\": \"053e2e040ab57b9dc951b72c264860db7eb3b0200ba345b4e4c3b14f67855ddf\", \"files\": {}}",
         "dest": "cargo/vendor/windows-implement-0.60.2",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/windows-interface/windows-interface-0.58.0.crate",
-        "sha256": "053c4c462dc91d3b1504c6fe5a726dd15e216ba718e84a0e46a88fbe5ded3515",
-        "dest": "cargo/vendor/windows-interface-0.58.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"053c4c462dc91d3b1504c6fe5a726dd15e216ba718e84a0e46a88fbe5ded3515\", \"files\": {}}",
-        "dest": "cargo/vendor/windows-interface-0.58.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -7503,19 +7256,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/windows-result/windows-result-0.2.0.crate",
-        "sha256": "1d1043d8214f791817bab27572aaa8af63732e11bf84aa21a45a78d6c317ae0e",
-        "dest": "cargo/vendor/windows-result-0.2.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"1d1043d8214f791817bab27572aaa8af63732e11bf84aa21a45a78d6c317ae0e\", \"files\": {}}",
-        "dest": "cargo/vendor/windows-result-0.2.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/windows-result/windows-result-0.4.1.crate",
         "sha256": "7781fa89eaf60850ac3d2da7af8e5242a5ea78d1a11c49bf2910bb5a73853eb5",
         "dest": "cargo/vendor/windows-result-0.4.1"
@@ -7524,19 +7264,6 @@
         "type": "inline",
         "contents": "{\"package\": \"7781fa89eaf60850ac3d2da7af8e5242a5ea78d1a11c49bf2910bb5a73853eb5\", \"files\": {}}",
         "dest": "cargo/vendor/windows-result-0.4.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/windows-strings/windows-strings-0.1.0.crate",
-        "sha256": "4cd9b125c486025df0eabcb585e62173c6c9eddcec5d117d3b6e8c30e2ee4d10",
-        "dest": "cargo/vendor/windows-strings-0.1.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"4cd9b125c486025df0eabcb585e62173c6c9eddcec5d117d3b6e8c30e2ee4d10\", \"files\": {}}",
-        "dest": "cargo/vendor/windows-strings-0.1.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -8153,19 +7880,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wyz/wyz-0.5.1.crate",
-        "sha256": "05f360fc0b24296329c78fda852a1e9ae82de9cf7b27dae4b7f62f118f77b9ed",
-        "dest": "cargo/vendor/wyz-0.5.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"05f360fc0b24296329c78fda852a1e9ae82de9cf7b27dae4b7f62f118f77b9ed\", \"files\": {}}",
-        "dest": "cargo/vendor/wyz-0.5.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/x11-clipboard/x11-clipboard-0.9.3.crate",
         "sha256": "662d74b3d77e396b8e5beb00b9cad6a9eccf40b2ef68cc858784b14c41d535a3",
         "dest": "cargo/vendor/x11-clipboard-0.9.3"
@@ -8322,14 +8036,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/yoke/yoke-0.8.2.crate",
-        "sha256": "abe8c5fda708d9ca3df187cae8bfb9ceda00dd96231bed36e445a1a48e66f9ca",
-        "dest": "cargo/vendor/yoke-0.8.2"
+        "url": "https://static.crates.io/crates/yoke/yoke-0.8.3.crate",
+        "sha256": "709fe23a0424b6a435d82152b1bd3fdfb0833487d5fa90d05d42762a9891fef5",
+        "dest": "cargo/vendor/yoke-0.8.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"abe8c5fda708d9ca3df187cae8bfb9ceda00dd96231bed36e445a1a48e66f9ca\", \"files\": {}}",
-        "dest": "cargo/vendor/yoke-0.8.2",
+        "contents": "{\"package\": \"709fe23a0424b6a435d82152b1bd3fdfb0833487d5fa90d05d42762a9891fef5\", \"files\": {}}",
+        "dest": "cargo/vendor/yoke-0.8.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -8400,27 +8114,27 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/zerocopy/zerocopy-0.8.48.crate",
-        "sha256": "eed437bf9d6692032087e337407a86f04cd8d6a16a37199ed57949d415bd68e9",
-        "dest": "cargo/vendor/zerocopy-0.8.48"
+        "url": "https://static.crates.io/crates/zerocopy/zerocopy-0.8.52.crate",
+        "sha256": "ce1022995ff5ff5d841ad7d994facc23098cd40152f2c1d11cd607c6f530653f",
+        "dest": "cargo/vendor/zerocopy-0.8.52"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"eed437bf9d6692032087e337407a86f04cd8d6a16a37199ed57949d415bd68e9\", \"files\": {}}",
-        "dest": "cargo/vendor/zerocopy-0.8.48",
+        "contents": "{\"package\": \"ce1022995ff5ff5d841ad7d994facc23098cd40152f2c1d11cd607c6f530653f\", \"files\": {}}",
+        "dest": "cargo/vendor/zerocopy-0.8.52",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/zerocopy-derive/zerocopy-derive-0.8.48.crate",
-        "sha256": "70e3cd084b1788766f53af483dd21f93881ff30d7320490ec3ef7526d203bad4",
-        "dest": "cargo/vendor/zerocopy-derive-0.8.48"
+        "url": "https://static.crates.io/crates/zerocopy-derive/zerocopy-derive-0.8.52.crate",
+        "sha256": "1ae7f38b72ec2a254e2b87ef277cf2cd4fb97cbebf944faa6f33354da0867930",
+        "dest": "cargo/vendor/zerocopy-derive-0.8.52"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"70e3cd084b1788766f53af483dd21f93881ff30d7320490ec3ef7526d203bad4\", \"files\": {}}",
-        "dest": "cargo/vendor/zerocopy-derive-0.8.48",
+        "contents": "{\"package\": \"1ae7f38b72ec2a254e2b87ef277cf2cd4fb97cbebf944faa6f33354da0867930\", \"files\": {}}",
+        "dest": "cargo/vendor/zerocopy-derive-0.8.52",
         "dest-filename": ".cargo-checksum.json"
     },
     {
